@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface myKVO : NSObject
-
+@property(nonatomic,assign)NSInteger num;
 @end

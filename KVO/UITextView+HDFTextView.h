@@ -9,5 +9,22 @@
 #import <UIKit/UIKit.h>
 
 @interface UITextView (HDFTextView)
+/**
+ * 占位提示语
+ */
+@property(nonatomic,strong)NSString *hdf_placeholder;
+/**
+ * 占位提示语的字体颜色
+ */
+@property (nonatomic, strong) UIColor *hdf_placeholderColor;
 
+/**
+ * 占位提示语的字体
+ */
+@property (nonatomic, strong) UIFont  *hdf_placeholderFont;
+
+/**
+ * 占位提示语标签
+ */
+@property (nonatomic, strong, readonly) UILabel *hdf_placeholderLabel;
 @end

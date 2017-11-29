@@ -9,5 +9,6 @@
 #import "Person.h"
 
 @interface Person (PersonCategory)
-
+@property(nonatomic,assign)float height;//新属性
 @end
+

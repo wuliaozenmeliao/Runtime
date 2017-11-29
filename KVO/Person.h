@@ -10,4 +10,8 @@
 
 @interface Person : NSObject
 
+@property(nonatomic,assign)int age; //属性变量
+-(void)func1;
+-(void)func2;
 @end
+

@@ -7,9 +7,11 @@
 //
 
 #import "TextViewViewController.h"
-
+//#import "UITextView+Test.h"
 @interface TextViewViewController ()
-
+{
+    UITextView *_textView;
+}
 @end
 
 @implementation TextViewViewController
@@ -17,11 +19,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
+    _textView = [[UITextView alloc] initWithFrame:CGRectMake(100, 100, 200, 200)];
+//    _textView.placeholder = @"请输入用户名";
+    _textView.backgroundColor = [UIColor lightGrayColor];
+    [self.view addSubview:_textView];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
 
 /*

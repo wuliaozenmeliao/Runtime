@@ -15,6 +15,11 @@
 		E99DEBB11FB3E8A8008330F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E99DEBB01FB3E8A8008330F6 /* main.m */; };
 		E99DEBBB1FB3E8A8008330F6 /* KVOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E99DEBBA1FB3E8A8008330F6 /* KVOTests.m */; };
 		E99DEBC61FB3E8A8008330F6 /* KVOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E99DEBC51FB3E8A8008330F6 /* KVOUITests.m */; };
+		E99DEBDD1FB438BF008330F6 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E99DEBDC1FB438BF008330F6 /* Person.m */; };
+		E99DEBE31FB44C8B008330F6 /* Person+PersonCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E99DEBE21FB44C8B008330F6 /* Person+PersonCategory.m */; };
+		E9A920DC1FB543CB00CE8A70 /* UIViewController+swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A920DB1FB543CB00CE8A70 /* UIViewController+swizzling.m */; };
+		E9A920DF1FB552B400CE8A70 /* TextViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A920DE1FB552B400CE8A70 /* TextViewViewController.m */; };
+		E9A920EB1FB55A6600CE8A70 /* UITextView+HDFTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A920EA1FB55A6600CE8A70 /* UITextView+HDFTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,18 @@
 		E99DEBC11FB3E8A8008330F6 /* KVOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E99DEBC51FB3E8A8008330F6 /* KVOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOUITests.m; sourceTree = "<group>"; };
 		E99DEBC71FB3E8A8008330F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E99DEBD91FB42E50008330F6 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		E99DEBDA1FB42E50008330F6 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		E99DEBDB1FB438BF008330F6 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		E99DEBDC1FB438BF008330F6 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		E99DEBE11FB44C8B008330F6 /* Person+PersonCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+PersonCategory.h"; sourceTree = "<group>"; };
+		E99DEBE21FB44C8B008330F6 /* Person+PersonCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+PersonCategory.m"; sourceTree = "<group>"; };
+		E9A920DA1FB543CB00CE8A70 /* UIViewController+swizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+swizzling.h"; sourceTree = "<group>"; };
+		E9A920DB1FB543CB00CE8A70 /* UIViewController+swizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+swizzling.m"; sourceTree = "<group>"; };
+		E9A920DD1FB552B400CE8A70 /* TextViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextViewViewController.h; sourceTree = "<group>"; };
+		E9A920DE1FB552B400CE8A70 /* TextViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewViewController.m; sourceTree = "<group>"; };
+		E9A920E91FB55A6600CE8A70 /* UITextView+HDFTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+HDFTextView.h"; sourceTree = "<group>"; };
+		E9A920EA1FB55A6600CE8A70 /* UITextView+HDFTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+HDFTextView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +118,22 @@
 		E99DEBA01FB3E8A8008330F6 /* KVO */ = {
 			isa = PBXGroup;
 			children = (
+				E99DEBD91FB42E50008330F6 /* 1.png */,
+				E99DEBDA1FB42E50008330F6 /* 2.png */,
 				E99DEBA11FB3E8A8008330F6 /* AppDelegate.h */,
 				E99DEBA21FB3E8A8008330F6 /* AppDelegate.m */,
 				E99DEBA41FB3E8A8008330F6 /* ViewController.h */,
 				E99DEBA51FB3E8A8008330F6 /* ViewController.m */,
+				E9A920DD1FB552B400CE8A70 /* TextViewViewController.h */,
+				E9A920DE1FB552B400CE8A70 /* TextViewViewController.m */,
+				E9A920E91FB55A6600CE8A70 /* UITextView+HDFTextView.h */,
+				E9A920EA1FB55A6600CE8A70 /* UITextView+HDFTextView.m */,
+				E99DEBDB1FB438BF008330F6 /* Person.h */,
+				E99DEBDC1FB438BF008330F6 /* Person.m */,
+				E99DEBE11FB44C8B008330F6 /* Person+PersonCategory.h */,
+				E99DEBE21FB44C8B008330F6 /* Person+PersonCategory.m */,
+				E9A920DA1FB543CB00CE8A70 /* UIViewController+swizzling.h */,
+				E9A920DB1FB543CB00CE8A70 /* UIViewController+swizzling.m */,
 				E99DEBA71FB3E8A8008330F6 /* Main.storyboard */,
 				E99DEBAA1FB3E8A8008330F6 /* Assets.xcassets */,
 				E99DEBAC1FB3E8A8008330F6 /* LaunchScreen.storyboard */,
@@ -265,9 +294,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E99DEBDD1FB438BF008330F6 /* Person.m in Sources */,
 				E99DEBA61FB3E8A8008330F6 /* ViewController.m in Sources */,
+				E9A920DC1FB543CB00CE8A70 /* UIViewController+swizzling.m in Sources */,
 				E99DEBB11FB3E8A8008330F6 /* main.m in Sources */,
+				E99DEBE31FB44C8B008330F6 /* Person+PersonCategory.m in Sources */,
 				E99DEBA31FB3E8A8008330F6 /* AppDelegate.m in Sources */,
+				E9A920EB1FB55A6600CE8A70 /* UITextView+HDFTextView.m in Sources */,
+				E9A920DF1FB552B400CE8A70 /* TextViewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +465,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RNMBR2RZ2J;
 				INFOPLIST_FILE = KVO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.XinGou.KVO;
@@ -444,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RNMBR2RZ2J;
 				INFOPLIST_FILE = KVO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.XinGou.KVO;

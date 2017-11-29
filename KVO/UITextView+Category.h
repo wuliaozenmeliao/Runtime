@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface UITextView (Category)
-
+@property(nonatomic,strong)NSString *placeholder;
 @end

@@ -9,5 +9,5 @@
 #import "myKVO.h"
 
 @implementation myKVO
-
+@synthesize num;
 @end
